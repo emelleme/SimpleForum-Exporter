@@ -1,0 +1,18 @@
+# WordPress Simple Forum XML Generator
+
+## This file generates a valid XML file of the Simple Forum Database.
+
+Instructions:
+
+1. Install SilverStripe v 2.4+. Note: once this is successfully installed, all necessary server configurations will have been installed.
+http://doc.silverstripe.org/sapphire/en/installation/
+
+2. Download and unzip the SimpleForum Exporter Module into the root directory of your SilverStripe Instalation
+https://github.com/emelleme/SimpleForum-Exporter/zipball/master
+
+3. Open the _config.php file in the SimpleForum Exporter directory you just unzipped, and set the database information for the Simple Forum Database.
+
+4. Generate the xml. Navigate to <your silverstripe domain>/sfxml.xml The XML file will be generated.
+(e.g. localhost/mysilverstripe/sfxml.xml)
+Note: This module uses the default name scheme for the wordpress simpleforum tables. If you have modified the table names, update the SFImporter.php file.
+
