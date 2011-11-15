@@ -7,6 +7,7 @@ Director::addRules(50, array('sfxml/$Action/$ID' => 'SFImporter_Controller'));
 
 global $sfdatabaseConfig;
 
+/* Set the Database information for the SimpleForum Database */
 $sfdatabaseConfig = array(
 	"type" => 'MySQLDatabase',
 	"server" => 'localhost',
