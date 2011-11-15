@@ -15,4 +15,4 @@ https://github.com/emelleme/SimpleForum-Exporter/zipball/master
 4. Generate the xml. Navigate to <your silverstripe domain>/sfxml.xml The XML file will be generated.
 (e.g. localhost/mysilverstripe/sfxml.xml)
 Note: This module uses the default name scheme for the wordpress simpleforum tables. If you have modified the table names, update the SFImporter.php file.
-
+see: http://wiki.simple-press.com/plugin-api/database-structure/
